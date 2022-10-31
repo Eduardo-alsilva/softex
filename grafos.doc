@@ -1,0 +1,7 @@
+Depois de uma pesquisa na literatura alguns exemplos de grafos foram encontrados, mas 2 exemplos tecnológicos foram abordados   que são utilizados no nosso cotidiano, não eles:
+•	Rotas de aviões entre aeroportos (malha aérea);
+•	roteadores (como os que formam a internet) ;
+
+Conseguir rotas já traçar que nos levam de um local a outro é bem bacana. Mas você há de convir comigo que conseguir também informar a distância do trajeto e o tempo, deixa uma brincadeira bem mais interessante.
+Pra isso precisamos adicionar alguns atributos às arestas dos nossos grafos, ou pesos (daí o nome ponderado ). Adicionando as distâncias entre cada trecho já nos ajuda a calcular uma média de tempo (é descobrir a velocidade média que os seres humanos caminham).
+Já para calcular o tempo em um trajeto feito de outras variáveis têm que ser levadas em consideração, como por exemplo, a velocidade máxima das vias, adicionando um novo nível de complexidade. Isso acaba gerando uma outra implicação: nem semper o caminho mais curto em termos de distância, será também o caminho mais rápido a ser percorrido.  
