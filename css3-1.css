@@ -1,0 +1,88 @@
+@charset  "UTF-8" ;
+
+* {
+    margem :  0 px ;
+    preenchimento :  0 px ;
+    borda :  0 px ;
+}
+
+html {
+    font-family : Arial , Helvetica , sans-serif;
+}
+
+corpo {
+    cor de fundo :  rgb ( 150 ,  150 ,  231 );
+}
+
+cabeçalho {
+    cor de fundo :  # 2D54A5 ;
+    altura :  150 px ;
+}
+
+cabeçalho  h1 {
+    cor :  #ffffff ; _
+    altura :  60px ; _
+    alinhamento de texto : centro;
+    margem : automática;
+    padding-top :  40 px ;
+    
+}
+navegação {
+    margem superior :  10 px ;
+    preenchimento :  10 px ;
+    box-shadow :  0 px  7 px  7 px  rgba ( 0 ,  0 ,  0 ,  0.315 );
+}
+
+navegar  em {
+    peso da fonte : negrito;
+    cor :  #ffffff ; _
+    decoração de texto : nenhum;
+    alinhamento de texto : centro;
+    preenchimento :  10 px ;
+    raio da borda :  5 px ;
+    duração da transição :  0,4 s ;  
+}
+
+nav  > a : passe o mouse {
+    cor de fundo :  rgb ( 105 ,  105 ,  245 );
+    cor :  #ffffff _
+}
+
+principal {
+    largura mínima :  300 px ;
+    largura máxima :  700 px ;
+    preenchimento :  20 px ;
+    margem : automática;
+    cor de fundo : branco;
+    text-align : justificar;
+}
+
+principal  h1 {
+    alinhamento de texto : centro;
+}
+
+principal  h2 {
+    padding-top :  30 px ;
+}
+
+ p principal {
+    margem :  10 px  0 px ;
+    recuo de texto :  30 px ;
+    altura da linha :  2 em ;
+}
+
+img {
+    largura :  400 px ;
+    altura :  280 px ;
+    exibição : bloco;
+    margem : automática;
+    preenchimento :  20 px ;
+}
+
+rodapé {
+    cor de fundo :  # 2D54A5 ;
+    cor :  #ffffff ; _
+    preenchimento :  15 px ;
+    alinhamento de texto : centro;
+    peso da fonte : negrito;
+}
