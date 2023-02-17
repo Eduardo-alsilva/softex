@@ -1,0 +1,12 @@
+Requisição 1
+curl --request GET \
+  --url https://restcountries.com/v2/all
+  
+ Requisição 2
+ curl --request GET \
+  --url 'https://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key'
+  
+  Requisição 3
+  curl --request GET \
+  --url 'https://newsapi.org/v2/top-headlines?country=us&apiKey=your_api_key'
+  
